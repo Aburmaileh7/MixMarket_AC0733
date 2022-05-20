@@ -10,5 +10,6 @@ namespace MixMarket_AC0733.DataAcsses
     {
         public int ItemId { get; set; }
         public string ItemName { get; set; }
+        public int ItemPric { get; set; }
     }
 }

@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace MixMarket_AC0733.DataAcsses
 {
     public static class ItemDAL
     {
+        private static string connString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\israa\\3-YEAR\\sacand\\visual programming\\project\\MixMarket_AC0733\\market.accdb";
         public static List<Item> GetAllItems()
         {
             // List<Item> items = new List<Item>();
